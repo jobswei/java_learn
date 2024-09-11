@@ -1,0 +1,17 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "."
+    ],
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "libs\\mysql-connector-java-8.0.30.jar",
+            "test-lib\\**\\*.jar"
+        ],
+        "exclude": [
+            "libs/mysql-connector-java-8.0.30.jar"
+        ]
+    },
+    "java.project.outputPath": "output"
+}
